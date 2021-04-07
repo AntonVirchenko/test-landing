@@ -1,0 +1,735 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.head-test-main{
+	background-color: #ffe409;
+	width: 100%;
+}
+
+.head-test-main-start,.head-test-main-course{
+	padding: 0 !important;
+}
+
+
+#nav-icon3{
+	position: fixed !important;
+	right: 20px !important;
+}
+
+.head-test-main-course{
+	width: 80%;
+}
+
+.head-test-main-content{
+	border: 7px solid black;
+	width: 130px;
+	height: 140px;
+}
+
+.head-main-container{
+	padding: 60px 0;
+}
+
+.head-test-main-content{
+	font-family: Gotham Pro Black;
+	font-size: 32px;
+}
+
+.head-test-main{
+	font-family: Gotham Pro Bold;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.head-main-course-name-how{
+	font-size: 35px;
+}
+
+.head-main-course-name{
+	text-transform: uppercase;
+	color: #afafaf;
+	font-size: 14px;
+}
+
+.head-main-course-description{
+	font-size: 14px;
+	color: #636363;
+	font-family: 'Gotham Pro Light'
+}
+
+.head-main-course-format img{
+	width: 60px;
+	height: 56px;
+}
+
+.head-main-course-format{
+	margin-left: 50px;
+}
+
+.head-main-course-format .flex-row:nth-child(2){
+	margin-top: 65px;
+}
+
+.head-main-course-format .flex-row .flex-column{
+	margin-left: 55px;
+}
+
+.schedule-test-block{
+	height: 100%;
+	padding: 120px 0;
+}
+
+.schedule-test-block-text{
+	font-size: 35px;
+}
+
+.schedule-test-block-days{
+	background-color: #f6f6f6;
+}
+
+.fs-14{
+	font-size: 14px;
+}
+
+.schedule-test-block-days-information{
+	border: 2px solid #c6c6c6;
+	padding: 38px 33px;
+}
+
+.schedule-test-block-days-tuesday, .schedule-test-block-days-monday{
+	padding: 10px 30px;
+}
+
+.schedule-test-block-days-tuesday span:nth-child(1), .schedule-test-block-days-monday span:nth-child(1){
+	font-size: 35px;
+}
+
+.schedule-test-block-days-tuesday img, .schedule-test-block-days-monday img{
+	width: 11px;
+	height: 13px;
+}
+
+.schedule-test-block-days-time span{
+	color: #c6c6c6;
+}
+
+.schedule-test-block-days-information span{
+	color: #636363;
+}
+
+.schedule-test-block-days-information-question{
+	border-radius: 50%;
+	border: 4px solid #e25151;
+	padding: 0 8px;
+	color: #e25151;
+	margin-left: 22px;
+}
+
+#accordion{
+	margin-top: 155px;
+	background-color: #f8f8f8;
+}
+
+.card a{
+	color: black !important;
+}
+
+.accordion-card-image{
+	background-color: #ffe409;
+	padding: 50px;
+}
+
+.accordion-card-image img{
+	width: 41px;
+	height: 43px;
+}
+
+.card-header{
+	padding: 0 70px 0 0 !important;
+	background: none !important;
+}
+
+.accordion-card-name{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.accordion-card-description span{
+	color: #636363;
+}
+
+.card-link i{
+	padding: 5px;
+}
+
+.card-link i:hover{
+	background-color: #ffe409;
+}
+
+
+.card{
+	border-top: 2px solid #e5e5e5 !important;
+	border-bottom: 2px solid #e5e5e5 !important;
+	border-right: none !important;
+	border-left: none !important;
+}
+
+section{
+	margin-top: 40px;
+}
+
+.card-body{
+	padding: 120px 80px !important;
+}
+
+.card-body-name{
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+
+.card-body-description{
+	margin-top: 25px;
+}
+
+.test-schedule-detailed-block{
+	background-color: #f7f7f7;
+	padding: 150px 100px;
+}
+
+.test-schedule-detailed-block-desc{
+	background-color: white;
+	padding: 100px 50px;
+}
+
+.test-schedule-detailed-block-desc-date div{
+	width: 600px;
+	padding-right: 20px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.test-schedule-detailed-block-desc-date div:nth-child(even),.test-schedule-detailed-block-date div:nth-child(even){
+	background-color: #f7f7f7;
+}
+
+
+.test-schedule-detailed-block-desc-date{
+	text-align: right;
+}
+
+.test-schedule-detailed-block-date div{
+	width: 150px;
+	padding-right: 20px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.last{
+	background-color: #ffe93a !important;
+}
+
+
+.test-name-page{
+	-webkit-transform: rotate(270deg); 
+	transform: rotate(270deg); 
+	position: relative;
+	right: -120px;
+	top: 70px;
+	font-family: "Gotham Pro Bold";
+}
+
+.test-name-page-polosa{
+	width: 80px;
+	height: 3px;
+	background-color: black; 
+	margin-top: 10px;
+
+}
+
+.test-format{
+	padding: 300px 100px;
+	border-bottom: 4px solid #e9e9eb;
+}
+
+.circle{
+	padding: 5px;
+	border-radius: 50%;
+	background-color: black;
+	margin-left: 10px;
+}
+
+.test-format img{
+	height: 174px;
+	width: 200px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.test-format-description{
+	margin-top: 130px;
+}
+
+.swiper-slide-content-description{
+	font-size: 14px;
+}
+
+.swiper-slide-image img{
+	width: 120px;
+	height: 120px;
+}
+
+.swiper-slide-content-name{
+	font-size: 18px;
+}
+
+.test-slider{
+	padding: 200px 100px;
+	border-bottom: 4px solid #e9e9eb;
+}
+
+.swiper-slide-image{
+	margin-right: 80px;
+}
+
+
+.footer-name{
+	font-size: 35px;
+}
+
+.footer-adress{
+	font-size: 14px;
+}
+
+.test-footer-contact{
+	border-right: 4px solid #e9e9eb;
+	padding: 100px 70px 0 70px;
+
+}
+
+.test-footer-links-phone img{
+	width: 27px;
+	height: 27px;
+}
+
+.test-footer-links{
+	margin-top: 55px;
+}
+
+.test-footer-links span{
+	margin-left: 27px;
+}
+
+.test-footer-links-mail, .test-footer-links-telegram, .test-footer-links-phone{
+	margin-top: 30px;
+}
+
+.test-footer-links-mail img, .test-footer-links-telegram img{
+	width: 27px;
+	height: 16px;
+}
+
+.test-footer-map{
+	margin-top: 100px;
+}
+
+.test-footer .col-6{
+	padding: 100px 80px 0 80px !important;
+}
+
+.test-footer-form-registration{
+	margin-top: 95px;
+}
+
+.test-footer-form input{
+	border-bottom: 3px solid #f0f0f0;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding: 40px 5px;
+}
+
+::placeholder{
+	color: black !important;
+}
+
+.test-footer-form-registration button{
+	background-color: #ffe409 !important;
+	color: black !important;
+	padding: 15px 50px !important;
+	border: none !important;
+}
+
+
+.test-footer-form-registration input[type="radio"]{
+	background-color: #f0f0f0 !important;
+	border: none;
+}
+
+.test-footer-form img{
+	margin-top: 100px;
+}
+
+@media (max-width: 1000px){
+	.card a{
+		font-size: 14px;
+	}
+
+
+	.accordion-card-description{
+		display: none;
+	}
+
+	.accordion-card-image{
+		padding: 30px;
+	}
+
+	.accordion-card-name{
+		font-size: 14px;
+		margin-left: 30px;
+	}
+
+	.schedule-test-block-days-tuesday{
+		margin-left: 20px;
+	}
+
+	.schedule-test-block-days-information{
+		padding: 20px 20px;
+	}
+
+	.schedule-test-block-text{
+		font-size: 25px;
+	}
+
+	.test-schedule-detailed-block-desc-date div{
+		width: 500px;
+	}
+
+	.test-schedule-detailed-block-desc{
+		margin-top: 30px;
+	}
+
+	.test-name-page{
+		transform: none; 
+		position: static !important;
+		font-family: "Gotham Pro Bold";
+		order: 1;
+		align-self: center !important;
+		justify-content: center;
+	}
+
+	.test-schedule-detailed-block-desc{
+		order: 2;
+	}
+
+	.test-schedule-detailed-block{
+		padding: 150px 50px;
+	}
+
+	.test-format-types{
+		order: 2;
+		margin-top: 20px;
+	}
+
+	.test-format{
+		padding: 200px 100px;
+	}
+
+	.test-format img{
+		width: 150px;
+		height: 130px;
+	}
+
+	.circle{
+		padding: 4px;
+	}
+
+	.swiper-container{
+		order: 2;
+		margin-top: 30px;
+	}
+
+	.test-slider{
+		padding: 200px 50px;
+	}
+
+	.swiper-slide {
+		padding-left: 10px !important;
+	}
+
+	.test-footer-contact{
+		border-right: none;
+		border-bottom: 4px solid #e9e9eb;
+	}
+
+	.test-footer-form-registration button{
+		margin-bottom: 20px;
+	}
+}
+
+
+@media (max-width: 768px){
+	.test-schedule-detailed-block-desc-date div{
+		width: 230px;
+		padding-right: 5px;
+	}
+
+	.test-schedule-detailed-block{
+		font-size: 14px;
+	}
+
+	.test-format img{
+		width: 100px;
+		height: 90px;
+	}
+
+}
+
+
+@media (max-width: 640px){
+	.head-test-main-content{
+		width: 90px;
+		height: 90px;
+		font-size: 22px;	
+	}
+
+	.schedule-test-block{
+		padding: 120px 15px;
+	}
+
+	.schedule-test-block-text{
+		font-size: 20px;
+	}
+
+	.accordion-card-image{
+		padding: 20px;
+	}
+
+	.card a{
+		font-size: 12px;
+	}
+
+	.accordion-card-name{
+		font-size: 12px !important;
+	}
+
+	#fa-one{
+		margin-left: 120px;
+	}
+
+	#fa-two{
+		margin-left: 100px;
+	}
+
+	#fa-three{
+		margin-left: 50px;
+	}
+
+	#fa-four{
+		margin-left: 25px;
+	}
+
+	#fa-five{
+		margin-left: 30px;
+	}
+
+	.podrobnee{
+		display: none;
+	}
+
+	.schedule-test-block-days-information{
+		padding: 10px 10px;
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+
+	.schedule-test-block-days-information-question{
+		margin-left: 10px;
+	}
+
+	.test-schedule-detailed-block{
+		padding: 150px 20px;
+	}
+
+}
+
+@media (max-width: 578px){
+	.schedule-test-block-days-tuesday,.schedule-test-block-days-monday{
+		margin-left: 0;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding: 10px 10px;
+	}
+
+	.schedule-test-block-days-tuesday span:nth-child(1), .schedule-test-block-days-monday span:nth-child(1){
+		font-size: 22px;
+	}
+
+	.schedule-test-block-text{
+		font-size: 15px;
+	}
+
+	.schedule-test-block-days-information-question{
+		display: none;
+	}
+
+	.test-schedule-detailed-block-desc-date div{
+		width: 180px;
+		height: 50px;
+	}
+
+	.test-schedule-detailed-block-date div{
+		width: 120px;
+		height: 50px;
+	}
+
+	.circle{
+		margin-left: 5px;
+		padding: 2px;
+	}
+
+	.test-format{
+		padding: 150px 30px;
+	}
+
+	.test-format img{
+		width: 80px;
+		height: 80px;
+	}
+
+	.test-format-online,.test-format-ochno {
+		margin-top: 10px !important;
+		font-size: 14px !important;
+	}
+
+	.swiper-slide-content-name{
+		font-size: 14px;
+		text-align: left;
+	}
+
+	.swiper-slide-content-name-position{
+		font-size: 14px;
+	}
+
+	.test-slider{
+		padding: 150px 20px;
+	}
+
+	.test-footer-form-registration-text{
+		align-self: center;
+		text-align: center;
+	}
+}
+
+
+@media (max-width: 420px){
+	.head-test-main-content{
+		text-align: center !important;
+	}
+
+	.head-main-course-format .flex-row .flex-column{
+		font-size: 14px;
+		margin-left: 20px;
+	}
+
+	.head-main-course-format{
+		margin-left: 20px;
+	}
+
+	.head-main-course-name-how{
+		font-size: 25px;
+	}
+
+	.head-test-main-content{
+		width: 50px;
+		height: 50px;
+		font-size: 14px;
+		border: 2px solid black;	
+	}
+
+	.test-schedule-detailed-block-desc-date div{
+		width: 150px;
+		height: 50px;
+	}
+
+	.test-schedule-detailed-block-date div{
+		width: 120px;
+		height: 50px;
+	}
+
+	.test-format img{
+		width: 50px;
+		height: 50px;
+	}
+
+	.test-format{
+		padding: 150px 20px;
+	}
+
+	.circle{
+		margin-left: 3px;
+		padding: 2px;
+	}
+
+	.head-main{
+		font-size: 14px !important;
+	}
+
+	#fa-one{
+		margin-left: 95px;
+	}
+
+	#fa-two{
+		margin-left: 75px;
+	}
+
+	#fa-three{
+		margin-left: 25px;
+	}
+
+	#fa-four{
+		margin-left: 0px;
+	}
+
+	#fa-five{
+		margin-left: 0px;
+	}
+
+	.accordion-card-name{
+		margin-left: 10px;
+	}
+
+}
+
+
+
+@media (max-width: 350px){
+	.head-main-course-format img{
+		width: 40px;
+		height: 36px;
+	}
+
+	.test-schedule-detailed-block{
+		padding: 150px 10px;
+	}
+
+	.test-schedule-detailed-block-desc-date div{
+		width: 130px;
+		height: 50px;
+	}
+
+	.test-schedule-detailed-block-date div{
+		width: 120px;
+		height: 50px;
+	}
+}
+
+
